@@ -438,7 +438,16 @@ footer{
     justify-content: center;
     text-align: center;
     padding: 30px;
+
 }
+
+.icono1{
+    /* float: right; */
+    display: flex;
+    justify-content: center; 
+    flex-direction: row-reverse; 
+}
+
 
 .row{
     display: flex;
@@ -465,3 +474,9 @@ footer{
     padding: 30px;
 }
 
+
+/* PAGINA PRODUCTOS */
+.color-acento{
+    display: flex;
+    justify-content: space-around;
+}
