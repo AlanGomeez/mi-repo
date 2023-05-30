@@ -317,8 +317,9 @@ footer .contenedor{
 }
 
 .gridContenedorOfertas{
-    background-color: rgb(108, 66, 66);
+    background-color: rgb(45, 45, 13);
     text-align: center;
+    height: 100%;
 }
 
 /* ENCABEZADO */
@@ -479,4 +480,5 @@ footer{
 .color-acento{
     display: flex;
     justify-content: space-around;
+    font-size: 22px;
 }
