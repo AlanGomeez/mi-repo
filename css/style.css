@@ -119,7 +119,7 @@ footer .contenedor{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/img/suplementos1.jpg");
+    ,url("../img/suplementos1.jpg");
     background-repeat: no-repeat;
     background-size: cover; /*Ocupa todo el espacio disponible*/
     background-position: center center; /*La imagen se centra*/
@@ -194,7 +194,7 @@ header .ofertas{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/img/ja.jpg");
+    ,url("../img/ja.jpg");
 }
 
 header .contenedornosotros{
@@ -252,7 +252,7 @@ footer .contenedor{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/img/ja.jpg");
+    ,url("../img/ja.jpg");
     background-repeat: no-repeat;
     background-size: cover; /*Ocupa todo el espacio disponible*/
     background-position: center center;
