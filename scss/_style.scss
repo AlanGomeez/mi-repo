@@ -70,6 +70,7 @@ button:hover {
 header {
   color: black;
 }
+
 header .logo {
   margin: 0;
   padding: 25px 30px;
@@ -80,6 +81,7 @@ header .logo {
   text-align: center;
   justify-content: center;
 }
+
 header .contenedor {
   display: flex;
   /*Flexible para moverlo facilmente*/
@@ -126,7 +128,7 @@ header a:hover {
 }
 #Somos-suple-pro {
   text-align: center;
-  padding: 200px 12px;
+  padding: 100px 12px;
 }
 /**/
 #SuplePro {
