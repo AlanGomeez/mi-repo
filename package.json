@@ -1,0 +1,11 @@
+{
+  "name": "proyect-final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch scss:css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

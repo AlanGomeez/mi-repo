@@ -1,0 +1,16 @@
+@mixin flex-props {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+/*@mixin font-style ($size, $family, $type-family) {
+    font-size: $size;
+    font-family: $family, $type-family;
+}*/
+
+@mixin sizing ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
