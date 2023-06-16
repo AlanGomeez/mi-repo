@@ -146,7 +146,7 @@ header a:hover {
 
 #Somos-suple-pro {
   text-align: center;
-  padding: 100px 12px;
+  padding: 25px 12px;
 }
 
 /**/
@@ -240,6 +240,7 @@ footer .contenedor {
   display: flex;
   justify-content: center;
   text-align: flex-end;
+  align-items: center;
   color: rgb(215, 250, 225);
   width: 100%;
   height: 100px;
@@ -310,7 +311,7 @@ footer .contenedor {
 }
 
 .gridContenedorOfertas {
-  background-color: #2d2d0d;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pared.jpg");
   text-align: center;
   height: 100%;
 }
@@ -345,6 +346,7 @@ article {
   display: flex;
   justify-content: space-around;
   padding: 20px;
+  overflow: hidden;
   font-size: 25px;
   color: #fff;
 }
@@ -422,7 +424,8 @@ footer {
 
 .row {
   display: flex;
-  background-color: #262424;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/gold.jpg");
+  background-position: center;
   padding: 40px;
 }
 
