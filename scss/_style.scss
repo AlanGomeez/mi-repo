@@ -216,32 +216,26 @@ footer p {
   align-items: center;
   color: rgb(215, 250, 225);
   background-color: #22ad39;
-  .listas{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    font-size: 28px;
-    width: 60px;
-    height: 60px;
-    line-height: 30px;
-  }
 }
 
-
-
+// .listas{
+//   position: relative;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   text-decoration: none;
+// }
 
 .formulario {
   height: 100vh;
   margin: auto;
   display: flex;
   padding: auto;
-  background-color: aqua;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ja.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/a.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   /*Ocupa todo el espacio disponible*/
@@ -386,6 +380,7 @@ footer {
   justify-content: center;
   text-align: center;
   padding: 30px;
+  background-color: rgb(37, 40, 41);
 }
 .icono1 {
   /* float: right; */
@@ -403,6 +398,7 @@ footer {
   margin-top: 30px;
   padding: 30px;
 }
+
 #containerCarousel {
   width: 100%;
 }
