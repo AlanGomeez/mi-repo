@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   box-sizing: border-box;
   font-family: "OpenSans-Regular";
@@ -48,6 +48,8 @@ p:hover {
 
 ul {
   list-style: none;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 li {
@@ -246,6 +248,12 @@ footer p {
   background-color: #22ad39;
 }
 
+@media screen and (max-width: 767px) {
+  .footerContenedor {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .redesContenedor ul {
   display: flex;
   align-items: center;
@@ -307,6 +315,11 @@ footer p {
   /*Ocupa todo el espacio disponible*/
   background-position: center center;
   color: #22ad39;
+}
+
+.mapsAyuda {
+  display: flex;
+  justify-content: space-around;
 }
 
 /*ESTA PARTE SIRVE PARA ESCRITORIO*/
@@ -449,6 +462,7 @@ footer {
     font-weight: bold;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 }
 /* PAGINA "NOSOTROS" */

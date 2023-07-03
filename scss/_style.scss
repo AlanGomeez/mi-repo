@@ -18,7 +18,7 @@ html {
   height: 100%;
 }
 body {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   box-sizing: border-box;
   font-family: "OpenSans-Regular";
@@ -41,6 +41,8 @@ p {
 }
 ul {
   list-style: none;
+  display: flex;
+  justify-content: space-evenly;
 }
 li {
   font-size: 20px;
@@ -218,6 +220,14 @@ footer p {
   background-color: #22ad39;
 }
 
+@media screen and (max-width: 767px) {
+  .footerContenedor{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+// REDES SOCIALES
 .redesContenedor ul{
   display: flex;
   align-items: center;
@@ -277,6 +287,11 @@ footer p {
   background-position: center center;
   color: #22ad39;
 }
+.mapsAyuda{
+  display: flex;
+  justify-content: space-around;
+}
+
 /*ESTA PARTE SIRVE PARA ESCRITORIO*/
 @media (min-width: 720px) {
   header {
@@ -406,6 +421,8 @@ footer {
     font-weight: bold;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    // height: 100vh;
   }
 }
 /* PAGINA "NOSOTROS" */
