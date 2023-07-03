@@ -44,6 +44,7 @@ ul {
   display: flex;
   justify-content: space-evenly;
 }
+
 li {
   font-size: 20px;
 }
@@ -131,7 +132,19 @@ header a:hover {
 #Somos-suple-pro {
   text-align: center;
   padding: 25px 12px;
+  background-image: url("../img/corona.jpg");
+  // background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;  
+  padding: 50px;
+  margin: 70px;
 }
+
+.Somos-suple-pro-parrafo{
+  color: rgb(137, 135, 135);
+}
+
 /**/
 #SuplePro {
   background-color: #1e1e1e;
@@ -290,7 +303,13 @@ footer p {
 .mapsAyuda{
   display: flex;
   justify-content: space-around;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.21' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  align-items: center;
 }
+
 
 /*ESTA PARTE SIRVE PARA ESCRITORIO*/
 @media (min-width: 720px) {
@@ -399,6 +418,7 @@ footer {
     flex-direction: column;
     font-size: 15px;
     font-weight: bold;
+    height: max-content;
   }
 }
 @media screen and (max-width: 767px) {
@@ -422,23 +442,24 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
-    // height: 100vh;
+    height: max-content;
   }
 }
 /* PAGINA "NOSOTROS" */
 .contenedorNosotros {
   color: #fff;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   text-align: center;
   padding: 30px;
   background-color: rgb(37, 40, 41);
 }
-.icono1 {
-  /* float: right; */
+.contenedorNosotros ul li img{
   display: flex;
   justify-content: center;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .row {
   display: flex;
