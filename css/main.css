@@ -222,7 +222,6 @@ header .contenedornosotros {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
   color: black;
 }
 
@@ -231,7 +230,6 @@ header .contenedornosotros ul {
   align-items: center;
   flex-direction: column;
   color: black;
-  background-color: white;
 }
 
 #Lista {
