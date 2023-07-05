@@ -24,6 +24,7 @@ body {
   min-height: 100vh;
   box-sizing: border-box;
   font-family: "OpenSans-Regular";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.21' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 
 h1 {
@@ -83,7 +84,7 @@ button:hover {
 }
 
 header {
-  color: black;
+  background-color: #151515;
 }
 
 header .logo {
@@ -462,7 +463,6 @@ footer {
     grid-template-areas: "header1" "nav1" "main1" "footer1";
     grid-template-columns: 100%;
     grid-template-rows: 100px 100px auto 50px;
-    background-color: beige;
   }
   .nav1 {
     display: flex;
@@ -528,6 +528,10 @@ footer {
   display: flex;
   justify-content: space-around;
   font-size: 22px;
+}
+
+.clickAyuda:hover {
+  transition-timing-function: ease-in-out;
 }
 
 /*@mixin font-style ($size, $family, $type-family) {
